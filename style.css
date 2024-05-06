@@ -35,7 +35,6 @@
 .titulo-principal span{
     color:var(--verde);
 }
-
 .botao{
   font-family: "Crakra Petch",sans-serif;
   background-color: var(--botao-inativo);
@@ -51,6 +50,20 @@
    border-right: 2px solid var(--botao-ativo);
    border-top: none;
 }
+
+#campo-senha:focus{
+  outline: none;
+}
+.conteudo{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.parametro{
+  background-color: var(--fundo-texto);
+  border: 2px solid var(--borda);
+  margin-top: 32px;
+}
+
 
 
 
